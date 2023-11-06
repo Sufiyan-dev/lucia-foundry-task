@@ -1,0 +1,90 @@
+[
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "val",
+          "type": "uint256"
+        }
+      ],
+      "name": "IndexedLog",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "string",
+          "name": "message",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "val",
+          "type": "uint256"
+        }
+      ],
+      "name": "Log",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "uint256",
+              "name": "field1",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "field2",
+              "type": "uint256"
+            }
+          ],
+          "indexed": false,
+          "internalType": "struct MyStruct",
+          "name": "myStruct",
+          "type": "tuple"
+        }
+      ],
+      "name": "LogMyStruct",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "example",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "field1Value",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "field2Value",
+          "type": "uint256"
+        }
+      ],
+      "name": "logStruct",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]

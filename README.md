@@ -64,3 +64,9 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+
+# Useful links
+
+* https://www.youtube.com/watch?v=nopo9KwwRg4
+* https://www.youtube.com/watch?v=7GT_-jvSZIA
